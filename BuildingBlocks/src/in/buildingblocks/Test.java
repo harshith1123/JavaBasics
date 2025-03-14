@@ -6,7 +6,7 @@ class Product{
 	static String category="xyz";
 			
 	public void showDetails(Product obj) {
-		System.out.println(obj.productId+"\n"+obj.productName+"\n"+Product.category);
+		System.out.println(productId+"\n"+obj.productName+"\n"+Product.category);
 	}
 }
 
