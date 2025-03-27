@@ -28,7 +28,6 @@ public class Test30 {
 		int b=10;
 		System.out.println((a!=b) && (a==b));
 		System.out.println((a!=b) || (a==b));
-		System.out.println(!((a!=b) || (a==b)));
 	}
 	
 	public static void unaryOperators() {
@@ -42,7 +41,7 @@ public class Test30 {
 	
 	public static void bitwiseOperators() {
 		int a=5;  // 0 1 0 1		
-		int b=10; // 1 0 1 0
+		int b=11; // 1 0 1 1
 		System.out.println(a&b);
 		System.out.println(a|b);
 		System.out.println(a|b);
@@ -52,7 +51,7 @@ public class Test30 {
 	public static void shiftOperators() {
 		int a =20;
 		System.out.println(a<<2);  // a * 2^m
-		System.out.println(a>>2); // a/2^m
+		System.out.println(a>>3); // a/2^m
 	}
 	
 	public static void ternaryOperator() {
@@ -92,11 +91,11 @@ public class Test30 {
 		System.out.println("____________________________________");
 		unaryOperators();
 		
-		System.out.println("____________________________________");
-		bitwiseOperators();
+		System.out.println("____________________________________");		
+		bitwiseOperators();		
 		
-		System.out.println("____________________________________");
-		bitwiseOperators();
+		System.out.println("____________________________________");		
+		shiftOperators();		
 		
 		System.out.println("____________________________________");
 		ternaryOperator();
